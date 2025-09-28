@@ -133,3 +133,60 @@ header nav ul li a {
   font-size: 14px;
   color: #666;
 }
+/* Membership Section */
+.membership {
+  padding: 60px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.membership h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.membership p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.membership-plans {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.plan {
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.plan h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.plan p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.plan button {
+  padding: 10px 20px;
+  background-color: #ff5a5f; /* Figma button color */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.plan button:hover {
+  background-color: #e14e52;
+}
