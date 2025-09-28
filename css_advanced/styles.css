@@ -71,3 +71,23 @@ header nav ul li a {
   font-weight: 600;
   color: #666666; /* Figma author color */
 }
+/* Quotes */
+.quotes {
+  background-color: #f9f9f9; /* Figma background */
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.quotes blockquote {
+  font-size: 24px; /* Use Figma font size */
+  font-style: italic;
+  color: #333333; /* Figma text color */
+  margin-bottom: 15px;
+}
+
+.quotes .author {
+  font-size: 18px;
+  font-weight: 600;
+  color: #555555;
+}
