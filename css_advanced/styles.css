@@ -1,0 +1,73 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #ffffff; /* replace with Figma color */
+}
+
+header .logo img {
+  height: 50px; /* adjust based on Figma */
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #333333; /* replace with Figma color */
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px; /* adjust based on Figma */
+  font-weight: 600;
+}
+
+/* Banner */
+.banner {
+  background: url("images/banner-bg.jpg") no-repeat center center/cover; /* if Figma shows image */
+  height: 500px; /* replace with Figma height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff; /* replace with Figma color */
+}
+
+.banner-text h1 {
+  font-size: 48px; /* adjust based on Figma */
+  margin-bottom: 20px;
+}
+
+.banner-text p {
+  font-size: 20px;
+}
+/* Quotes Section */
+.quotes {
+  background-color: #f9f9f9; /* use Figma background */
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.quotes blockquote {
+  font-size: 24px; /* use Figma font size */
+  font-style: italic;
+  color: #333333; /* Figma text color */
+  margin-bottom: 15px;
+}
+
+.quotes .author {
+  font-size: 18px;
+  font-weight: 600;
+  color: #666666; /* Figma author color */
+}
