@@ -190,3 +190,41 @@ header nav ul li a {
 .plan button:hover {
   background-color: #e14e52;
 }
+/* FAQ Section */
+.faq {
+  padding: 60px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.faq h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.faq-list {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.faq-item {
+  margin-bottom: 25px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.faq-item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.faq-item p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
